@@ -113,7 +113,7 @@ public class Wizard implements Lockable {
 		if ((this.key != key) && (key > 0)) {
 			this.key = key;
 		} else {
-			System.out.println("key not set");
+			System.out.println("key already set");
 		}
 	}// end setKey
 
